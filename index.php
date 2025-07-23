@@ -9,16 +9,28 @@
 </head>
 <body>
     <?php include_once "menu.php" ?>
-    <div class="container my-4">
-        <div class=row>
-            <div class="col-4">
-            <h1><?php echo "Cégnév" ?></h1>
+    <div class="container">
+        <div class="row align-items-center mx-auto my-4">
+            <div class="col">
+            <h1 class="my-4"><?php echo "Cégnév" ?></h1>
             <p><?php echo "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus debitis dolor amet unde ea nesciunt maxime eveniet autem, magnam ducimus adipisci ratione eius fuga, sit saepe doloribus, quibusdam laborum cum!" ?></p>
             </div> 
-            <div class="col-8">
+            <div class="col">
                 <img src="image/tanacsadas.jpg" class="img-fluid rounded" alt="">
             </div>
         </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <p class="my-4">Új sor</p>
+            </div>
+        </div>
     </div>
+    <footer class="container-flex bg-light py-5">
+        <div class="row text-center">
+            <div class="col">
+                <p>Footer</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
